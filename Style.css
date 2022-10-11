@@ -1,6 +1,22 @@
  .container{
-    color: lime;
+     background: lightcoral;
+     width: 500px;
+     margin: 65px auto;
+     border-radius: 10px;
  }
  .heading{
     color: rgb(225, 8, 8);
  }
+  h1 {
+    padding: 35px;
+    font-weight: 400;
+  }
+  .input {
+    text-align: center;
+  }
+  #email{
+    padding: 15px 20px;
+  }
+  #password{
+    padding: 15px 20px;
+  }
