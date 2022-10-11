@@ -11,20 +11,22 @@
 </head>
 <body>                                                                                       
     <div class="container">
-        <div class="image">
-            <!--image tag--->
-        </div>
-        <div class = "input">
-            <div class = "email_address">
-                <input type="email" placeholder="email_address" id="email"> 
+        <form>
+            <h1>Sign In</h1>
+            <div class = "input">
+                <div class = "email_address">
+                    <input type="email" placeholder="email_address" id="email"> 
+                </div>
+                <div class="password">
+                    <input type="password" placeholder="password" id="password">
+                </div>
             </div>
-            <div class="password">
-                <input type="password" placeholder="password" id="password">
-            </div>
-        </div>
-        <div class="button">
-            <button onclick="printemail()">Sign in</button>
-        </div>
+            <div class="button">
+                <button  onclick="printemail()">Register</button>
+                <button  onclick="printemail()">Sign in</button>
+              </div>
+        </form>
+        
     </div>
 
     <script type="text/javascript" src="script.js"></script>
