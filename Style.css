@@ -1,11 +1,14 @@
- .container{
+body{
+    background: crimson;
+}
+.container{
      background: rgb(255, 255, 255);
      width: 500px;
-     margin: 65px auto;
+     margin: 150px auto;
      border-radius: 10px;
  }
  .heading{
-    color: rgb(225, 8, 8);
+    color: rgb(0, 0, 0);
  }
   h1 {
     padding: 35px;
@@ -15,24 +18,35 @@
     text-align: center;
   }
   #email{
-    padding: 15px 20px;
+    padding: 15px 10px;
   }
   #password{
-    padding: 15px 20px;
+    padding: 15px 10px;
   }
   .email_address input {
+    text-transform: uppercase;
     font-size: 15px;
-    width: 75%;
+    width: 82%;
     border: 0px;
   border-bottom: 1px solid #747474;
   outline: none;
     
   }
   .password input {
+    text-transform: uppercase;
     font-size: 15px;
-    width: 75%;
+    width: 82%;
     border: 0px;
   border-bottom: 1px solid #747474;
   outline: none;
   }
-
+  .Register{
+    display: block;
+    width: 50%;
+    text-transform: uppercase;
+    border: 0px;
+    padding: 15px;
+    background: #e8e9ec;
+  color: #777;
+  }
+  
