@@ -49,4 +49,13 @@ body{
     background: #e8e9ec;
   color: #777;
   }
+  .Sign{
+    display: block;
+    width: 50%;
+    text-transform: uppercase;
+    border: 0px;
+    padding: 15px;
+    background: #2b4db4;
+  color: rgb(249, 243, 243);
+  }
   
